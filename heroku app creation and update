@@ -1,0 +1,17 @@
+To start a heroku app
+see the package json file and delete the lock json file 
+see that there are no duplications present and engines should contain both node and npm if there is duplicacy delete that one
+open git repo redirect to the place where you are running the folder from
+Go to the official site of heroku 
+give the app name of your choice
+after setting the name of the app direct you view towards finding heroku cli and open the heroku cli dialogue box and see the steps
+follow the steps it should launch your git repo
+-------------**----------------
+after making changes in js files
+type heroku open 
+check git status
+then add the files with git add .
+then commit changes
+then launch in cmd : heroku login
+git push heroku master
+it should open your browser with new refreshed data
